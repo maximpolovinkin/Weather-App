@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		329AC01628DDCA9400901178 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329AC01528DDCA9400901178 /* Data.swift */; };
 		352AD2612403FA5700FE672A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AD2602403FA5700FE672A /* AppDelegate.swift */; };
 		352AD2632403FA5700FE672A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AD2622403FA5700FE672A /* SceneDelegate.swift */; };
 		352AD2652403FA5700FE672A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AD2642403FA5700FE672A /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		329AC01528DDCA9400901178 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		352AD25D2403FA5700FE672A /* Sunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		352AD2602403FA5700FE672A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		352AD2622403FA5700FE672A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		329AC01428DDCA7800901178 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		352AD2542403FA5700FE672A = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +67,7 @@
 		352AD25F2403FA5700FE672A /* Sunny */ = {
 			isa = PBXGroup;
 			children = (
+				329AC01428DDCA7800901178 /* Network */,
 				352AD2792404DD0600FE672A /* Extensions */,
 				352AD277240404C100FE672A /* Views */,
 				352AD276240404B800FE672A /* Models */,
@@ -89,6 +99,7 @@
 		352AD276240404B800FE672A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				329AC01528DDCA9400901178 /* Data.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -182,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				352AD2652403FA5700FE672A /* ViewController.swift in Sources */,
+				329AC01628DDCA9400901178 /* Data.swift in Sources */,
 				352AD27B2404DD6600FE672A /* ViewController+alertController.swift in Sources */,
 				352AD2612403FA5700FE672A /* AppDelegate.swift in Sources */,
 				352AD2632403FA5700FE672A /* SceneDelegate.swift in Sources */,
